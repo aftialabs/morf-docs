@@ -1,10 +1,10 @@
-## Morf Getting Started Guide
+# Morf Getting Started Guide
 
-# What is Morf?
+## What is Morf?
 
 ## The Morf Difference
 
-# Creating Morf Forms
+## Creating Morf Forms
 
-# Generating Morf Forms from Documents
+## Generating Morf Forms from Documents
 
