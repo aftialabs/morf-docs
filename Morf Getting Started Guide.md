@@ -56,6 +56,14 @@ Let's add an email field between the last name and the enrollment type.  In the 
             "options": [
               {
 
+Between the curly braces enter the word type.  The editor should suggest valid types, select email.   The editor will automatically add quotes and a colon for you.  End the line with a comma.   Now enter the word label and Email Address. Again, end the line with a comma. Enter the word width and the word half. No comma is required after this line.  Your email field object definitioant should not look like this:
+
+        {
+          "type": "email",
+          "label": "Email Address",
+          "width": "half"
+        },
+
 
 
 ## Generating Morf Forms from Documents
