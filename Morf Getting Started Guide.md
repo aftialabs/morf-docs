@@ -10,7 +10,8 @@ Instead of trying create yet another drag and drop form editor, Morf allows you 
 
 ## Creating Morf Forms
 
-To create your first Morf form, navigate to https://editor.getmorf.io/.  In the left-hand panel, you can edit the form defintion.   
+To create your first Morf form, navigate to https://editor.getmorf.io/.  In the left-hand panel, you can edit the form defintion.   In the right-hand pane you can see a real-time preview of the form.
+
 The definition consists of 3 main parts: 
 <ul>
   <li>config</li>
@@ -18,7 +19,42 @@ The definition consists of 3 main parts:
   <li>body</li>  
 </ul>
 
-The config section contains configurations that affect the whole form, such as the submission endpoint or theme to style the form.
+The config section contains configurations that affect the whole form, such as the submission endpoint or theme to style the form.  The head section describes the form and contains elements such as the title and logo.  The body section contains the field objects and their properties and organization elements such as panels.
+
+By default, the editor provides a simple enrollment form. You can try editing and adding to the form to get a feel for Morf.   
+
+Let's add an email field between the last name and the enrollment type.  In the left hand pane insert an open and a closed brace immediately after the comma at the end of the last name object.
+
+    {
+      "config": {
+        "submit": "",
+        "successUrl": "",
+        "theme": "",
+        "externalId": ""
+      },
+      "head": {
+        "title": "Basic Enrollment Form",
+        "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
+          },
+      "body": {
+        "items": [
+          {
+            "type": "text",
+            "label": "First name",
+            "placeholder": "E.g. Jane"
+          },
+          {
+            "type": "text",
+            "label": "Last name",
+            "placeholder": "E.g. Doe",
+            "required": true
+          },
+          {},
+          {
+            "type": "radio",
+            "label": "Enrollment type",
+            "options": [
+              {
 
 
 
