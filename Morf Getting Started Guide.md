@@ -65,6 +65,7 @@ Between the curly braces enter the word type.  The editor should suggest valid t
         },
 
 
+It's that easy to build out your form.  Try changing the form title or it's logo.  For more information on the form definition syntax please see the reference guide.
 
 ## Generating Morf Forms from Documents
 
