@@ -75,15 +75,15 @@ Building your form from scratch can be time consuming, but thankfully Morf provi
 
 To indicate where data should appear in your document, simply identify the location with double curly braces {{ }} and the name of the field in quotes. For example {{"firstname"}}.   If you want to group some fields together, use dot notation.  Like this - {{"vendor.firstname"}} {{"vendor.lastname"}}.
 
-To make the tagging process easier, install the [Adobe Document Generation Word Add-in ](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin/).  The add-in will help you tag the document, create repeating tables and lists, insert calculatings and insert [text tags for Adobe Sign esignatures](https://helpx.adobe.com/sign/using/text-tag.html).
+To make the tagging process easier, install the [Adobe Document Generation Word Add-in ](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin/).  The add-in will help you tag the document, create repeating tables and lists, insert calculations and [text tags for Adobe Sign esignatures](https://helpx.adobe.com/sign/using/text-tag.html).
 
-When you are finished tagging your Word document, click on convert in the [Morf editor](https://editor.getmorf.io/) to upload the file.   Morf will generate your form.  You'll notice that each field object has an associate "bind" element which matches the double curly brace tags you created.  
+When you are finished tagging your Word document, click on convert in the [Morf editor](https://editor.getmorf.io/) to upload the file.   Morf will generate your form.  You'll notice that each field object has an associated "bind" element which matches the double curly brace tags you created.  
 
-N.B. Adobe Sign text tags are not converted into field objects.  These text tags will become fields in the signing process.
+N.B. Adobe Sign text tags are not converted into field objects.  These text tags will become fields during the signing process.
 
 ## Submitting Data
 
-The data that is captured in your Morf form needs to be submitted somewhere.  You can configure this in the submit element at the top of the form definition by entering the URL where you want to post the data.  You can also configure the successUrl, which is the location that the user will be redirected to after a successful form submission.
+The data that is captured in your Morf form needs to be submitted to some endpoint.  You can configure this in the submit element at the top of the form definition by entering the URL where you want to post the data. This endpoint must be setup to accept an HTTP Post, for example a Microsoft Power Automate flow. You can also configure the successUrl, which is the location that the user will be redirected to after a successful form submission.
 
     {
       "config": {
