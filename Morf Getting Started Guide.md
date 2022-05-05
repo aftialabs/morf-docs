@@ -69,3 +69,15 @@ It's that easy to build out your form.  Try changing the form title or it's logo
 
 ## Generating Morf Forms from Documents
 
+Building your form from scratch can be time consuming, but thankfully Morf provides a better way. Organizations looking to accelerate their digital transformation can leverage their existing documents. Morf forms can be machine generated from a document.  This not only creates the field objects but also binds the two so data can easily flow into your document template. When used in conjunction with [Adobe's Document Generation API](https://developer.adobe.com/document-services/apis/doc-generation/) documents are populated with form data.  
+
+### Using Microsoft Word Documents
+
+To indicate where data should appear in your document, simply identify the location with double curly braces {{ }} and the name of the field in quotes. For example {{"firstname"}}.   If you want to group some fields together, use dot notation.  Like this - {{"vendor.firstname"}} {{"vendor.lastname"}}.
+
+To make the tagging process easier, install the [Adobe Document Generation Word Add-in ](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin/).  The add-in will help you tag the document, create repeating tables and lists, insert calculatings and insert [text tags for Adobe Sign esignatures](https://helpx.adobe.com/sign/using/text-tag.html).
+
+When you are finished tagging your Word document, click on convert in the [Morf editor](https://editor.getmorf.io/) to upload the file.   Morf will generate your form.  You'll notice that each field object has an associate "bind" element which matches the double curly brace tags you created.  
+
+N.B. Adobe Sign text tags are not converted into field objects.  These text tags will become fields in the signing process.
+
