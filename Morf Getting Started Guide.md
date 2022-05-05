@@ -12,7 +12,7 @@ Instead of trying create yet another drag and drop form editor, Morf allows you 
 
 To create your first Morf form, navigate to https://editor.getmorf.io/.  In the left-hand panel, you can edit the form defintion.   In the right-hand pane you can see a real-time preview of the form.
 
-The definition consists of 3 main parts: 
+The definition consists of 3 main sections: 
 <ul>
   <li>config</li>
   <li>head</li>
