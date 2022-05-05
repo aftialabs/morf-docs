@@ -8,7 +8,7 @@ Morf is a modern and lightweight API-driven platform that offers a rapid and fle
 
 ## The Morf Difference
 
-Instead of trying create yet another drag and drop form editor, Morf allows you to quickly define you form with a simple declarative syntax.  The editor provides type-ahead hints and real-time form preview.  Better yet, Morf converts your existing forms and documents into the form definition and creates the corresponding data bindings. Within mere minutes, you can start collecting data that flows into dynamic signature-ready documents and into any backend system of record.  
+Instead of trying create yet another drag and drop form editor, Morf allows you to quickly define your form with a simple declarative syntax.  The editor provides type-ahead hints and real-time form preview.  Better yet, Morf converts your existing forms and documents into the form definition and creates the corresponding data bindings. Within mere minutes, you can start collecting data that flows into dynamic signature-ready documents and into any backend system of record.  
 
 ## Creating Morf Forms
 
