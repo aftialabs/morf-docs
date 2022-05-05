@@ -97,5 +97,5 @@ The data that is captured in your Morf form needs to be submitted to some endpoi
 
 ## Sample
 
-Wanna try it?  We've put together some [sample assets and a script of instructions] (https://github.com/aftialabs/morf-samples/tree/main/Grant%20Application) for you.
+Wanna try it?  We've put together some [sample assets and a script of instructions](https://github.com/aftialabs/morf-samples/tree/main/Grant%20Application) for you.
 This sample will help you build your form from a Word template, populate the Word file with form data and send for signature using Adobe Sign. The process is orchestrated with Microsoft Power Automate.   Enjoy! If you have any issues, contact our [Slack channel](https://getmorf.slack.com/archives/C03BGBRN32Q).
