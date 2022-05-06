@@ -2,4 +2,23 @@
 
 # Morf Syntax Reference Guide
 
-lorem ipsum
+## Overview
+
+
+## Config
+
+| Syntax      | Description | Format |
+| ----------- | ----------- | -------- |
+| submit     | Location where form data will be submitted via HTTP post   |   URL       |
+| successUrl   | Location where form page will be redirected upon successful submission of form data        |    URL      |
+| theme  | CSS theme for styling the form        |     URL     |
+|   externalId     | ??        |   ??   |      
+    
+
+## Head
+
+## Body
+
+### Panel
+
+### Type
