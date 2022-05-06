@@ -3,7 +3,30 @@
 # Morf Syntax Reference Guide
 
 ## Overview
+The Morf form definition is a text document in standard JSON format. The form definiton must be valid JSON for the Morf rendering engine to parse and render the form.  All commas, curly braces, colons and square brackets must be in the right place. 
 
+
+The definiton is in 3 sections: config, head, and body.
+The config section contains configurations that affect the whole form, such as the submission endpoint or theme to style the form. The head section describes the form and contains elements such as the title and logo. The body section contains the field objects and their properties and may also contain organization elements such as panels.  The field objects are with the items array.  Objects in a panel must also be in an array. 
+
+Below is a collapsed view of the form definition.
+
+        {
+          "config": {
+          ...
+          },
+          "head": {
+           ...
+          },
+          "body": {
+            "items": [
+              ...
+              }
+            ]
+          }
+        }
+
+The tables below describe the valid syntax of the elements of the form definition.
 
 ## Config
 
@@ -24,6 +47,8 @@
 
 
 ## Body
+
+
 
   | Syntax      | Description | Format |
 | ----------- | ----------- | -------- |
