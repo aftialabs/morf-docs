@@ -54,7 +54,9 @@ The second section in the form description is the head section.
 
 The final section in the form description is the body section.  Items in the body section are inside the items array.  Each item begins with a type which set the type of object and is follow by optional settings which dictate it's behavior.  
 
-The table below describes the valid item types.
+### Form Objects
+
+Form objects are defined by their type.  The table below describes the valid types of form objects.
 
   | Syntax      | Description | Notes |
 | ----------- | ----------- | -------- |
@@ -81,7 +83,46 @@ The table below describes the valid item types.
 |  url     | Displays text which can be linked to an URL  |    |
 |  week     | Displays a week picker  |    |
 
+### Object Properties
+
+All form objects share a common set of properties which modify their behavior.
+ariaLabel
+ariaRole
+bind
+description
+disabled
+id 
+label
+mask
+name 
+placeholder
+readonly
+regex
+rules 
+value
+width
+
+  | Syntax      | Description | Notes |
+| ----------- | ----------- | -------- |
+| ariaLabel     | Provides accessible description of an object | Overrides use of other properties when read by assistive technology.   |
+| ariaRole    | Provides accessible role for an object  | Valid roles are ...   |
+| bind     | Provides name and location of where values are written in data submission  | Use . notation to nest bindings within  data.    |
+| description    | ...  |    |
+| id     | ...  |    |
+| label     | ...  |    |
+| mask    | ...  |    |
+| name    | ...  |    |
+| placeholder    | ...  |    |
+| readonly     | ...  |    |
+| regex     | ...  |    |
+| rules     | ...  |    |
+| value   | ...  |    |
+| width   | ...  |    |
+| ...     | ...  |    |
+| ...     | ...  |    |
+| ...     | ...  |    |
+
 
 ### Panel
 
-### Type
+
