@@ -26,9 +26,11 @@ Below is a collapsed view of the form definition.
           }
         }
 
-The tables below describe the valid syntax of the elements of the form definition.
+The tables below describes the valid syntax of the elements of the form definition.
 
 ## Config
+
+The config section is the first section in the form description.
 
 | Syntax      | Description | Format |
 | ----------- | ----------- | -------- |
@@ -36,11 +38,13 @@ The tables below describe the valid syntax of the elements of the form definitio
 | successUrl   | Location where form page will be redirected upon successful submission of form data.        |    URL      |
 | theme  | CSS theme for styling the form.        |     URL of CSS    |
 |   externalId     | ??        |   ??   |      
-    
+
 
 ## Head
-  
-  | Syntax      | Description | Format |
+
+The second section in the form description is the head section.
+
+| Syntax      | Description | Format |
 | ----------- | ----------- | -------- |
 | title     | Form title, appears centered justified at the top of the form.  |  Text content       |
 | logo   | Image to appear in top left conver       |    URL of image file     |
@@ -48,14 +52,16 @@ The tables below describe the valid syntax of the elements of the form definitio
 
 ## Body
 
+The final section in the form description is the body section.  Items in the body section are inside the items array.  Each item begins with a type which set the type of object and is follow by optional settings which dictate it's behavior.  
 
+The table below describes the valid item types.
 
-  | Syntax      | Description | Format |
+  | Syntax      | Description | Notes |
 | ----------- | ----------- | -------- |
-| button      |   |    |
-| checkbox      |   |    |
-| color      |   |    |
-| date      |   |    |
+| button      | Displays a button  |    |
+| checkbox      | Display one or more checkboxes | Contains an options array to list checkboxes in the group   |
+| color      | Displays a color picker  |    |
+| date      | Displays a date field with date picker  |    |
 | datetimelocal      |   |    |
 | email      |   |    |
 | file      |   |    |
