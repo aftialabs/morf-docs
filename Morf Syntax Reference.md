@@ -59,27 +59,27 @@ The table below describes the valid item types.
   | Syntax      | Description | Notes |
 | ----------- | ----------- | -------- |
 | button      | Displays a button  |    |
-| checkbox      | Display one or more checkboxes | Contains an options array to list checkboxes in the group   |
+| checkbox      | Displays one or more checkboxes in a group | Contains an options array to list checkboxes in the group   |
 | color      | Displays a color picker  |    |
 | date      | Displays a date field with date picker  |    |
-| datetimelocal      |   |    |
-| email      |   |    |
-| file      |   |    |
-| hidden      |   |    |
-| month      |   |    |
-| number      |   |    |
-| panel      |   |    |
-| password      |   |    |
-| radio      |   |    |
-| range      |   |    |
-| reset      |   |    |
-| search      |   |    |
-| submit      |   |    |
-| tel      |   |    |
-| textarea      |   |    |
-|  time     |   |    |
-|  url     |   |    |
-|  week     |   |    |
+| datetimelocal      | Displays a date and time field with date/time picker  |    |
+| email      | Displays a text field that validates email address format  |    |
+| file      | Displays a file picker object  |    |
+| hidden      | Createa a hidden fields  | This object can be used to hold values/variables off screen   |
+| month      | Displays a month picker  |    |
+| number      | Displays a field which only allow numberical values  |    |
+| panel      | Display a panel object for grouping objects together   |    |
+| password      | Displays a field which masks the characters entered  |    |
+| radio      | Displays one or more radio buttons in a group |  Contains an options array which lists radio buttons in the group. Choices are mutually exclusive.  |
+| range      | Displays a slider for selecting a range  |    |
+| reset      | Displays a button for clearing form data  |    |
+| search      | Displays a text field with X for clearing value  |    |
+| submit      | Displays a button which submits the form data  |  Data is submitted to the URL in the submit element of the config  |
+| tel      |  Displays a text field which formats data according to telephone number pattern |    |
+| textarea      | Displays a multiline text field  |    |
+|  time     |  Displays a time picker |    |
+|  url     | Displays text which can be linked to an URL  |    |
+|  week     | Displays a week picker  |    |
 
 
 ### Panel
