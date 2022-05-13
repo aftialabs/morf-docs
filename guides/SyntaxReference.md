@@ -36,6 +36,7 @@ The config section is the first section in the form description.
 | ----------- | ----------- | -------- |
 | submit     | Location where form data will be submitted via HTTP post.   |   URL       |
 | successUrl   | Location where form page will be redirected upon successful submission of form data.        |    URL      |
+| sitekey | | Unique Key|
 | theme  | CSS theme for styling the form.        |     URL of CSS    |
 |   externalId     | ??        |   ??   |      
 
@@ -107,7 +108,7 @@ width
 | ariaLabel     | Provides accessible description of an object | Overrides use of other properties when read by assistive technology.   |
 | ariaRole    | Provides accessible role for an object  | Valid roles are ...   |
 | bind     | Provides name and location of where values are written in data submission  | Use . notation to nest bindings within  data.    |
-| description    | ...  |    |
+| description    | Provides a text description of the field object, can be used for instructions |    |
 | id     | ...  |    |
 | label     | ...  |    |
 | mask    | ...  |    |
