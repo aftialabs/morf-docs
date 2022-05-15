@@ -3,11 +3,11 @@
 # Morf Syntax Reference Guide
 
 ## Overview
-The Morf form definition is a text document in standard JSON format. The form definiton must be valid JSON for the Morf rendering engine to parse and render the form.  All commas, curly braces, colons and square brackets must be in the right place. 
+The Morf form definition is a text document in standard JSON format. The form definiton must be valid JSON for the Morf rendering engine to parse and render the form.  All commas, curly braces, colons and square brackets must be in the correct location. 
 
 
-The definiton is in 3 sections: config, head, and body.
-The config section contains configurations that affect the whole form, such as the submission endpoint or theme to style the form. The head section describes the form and contains elements such as the title and logo. The body section contains the field objects and their properties and may also contain organization elements such as panels.  The field objects are with the items array.  Objects in a panel must also be in an array. 
+The form definiton is in 3 sections: config, head, and body.
+The config section contains configurations that affect the whole form, such as the submission endpoint or theme to style the form. The head section describes the form and contains elements such as the title and logo. The body section contains the field objects and their properties and may also contain organization elements such as panels.  The field objects are within the items array.  Objects within a panel must also be in an items array. 
 
 Below is a collapsed view of the form definition.
 
@@ -38,7 +38,7 @@ The config section is the first section in the form description.
 | successUrl   | Location where form page will be redirected upon successful submission of form data.        |    URL      |
 | sitekey | API authentication key required for form rendering| Unique Key|
 | theme  | CSS theme for styling the form.        |     URL of CSS    |
-|   externalId     |         |   Alpha numberic ID   |      
+|   externalId     | ID used to identify a form according to authors descretion       |   Alpha numberic ID   |      
 
 
 ## Head
@@ -64,12 +64,12 @@ Form objects are defined by their type.  The table below describes the valid typ
 | button      | Displays a button  |    |
 | checkbox      | Displays one or more checkboxes in a group | Contains an options array to list checkboxes in the group   |
 | color      | Displays a color picker  |    |
-| date      | Displays a date field with date picker  |    |
-| datetimelocal      | Displays a date and time field with date/time picker  |    |
+| date      | Displays a date field with date picker  |  Allows optional text entry  |
+| datetimelocal      | Displays a date and time field with date/time picker  | Allows optional text entry   |
 | email      | Displays a text field that validates email address format  |    |
 | file      | Displays a file picker object  |    |
-| hidden      | Createa a hidden fields  | This object can be used to hold values/variables off screen   |
-| month      | Displays a month picker  |    |
+| hidden      | Creates a hidden fields  | This object can be used to hold values/variables off screen   |
+| month      | Displays a month picker  | Allows optional text entry    |
 | number      | Displays a field which only allow numberical values  |    |
 | panel      | Display a panel object for grouping objects together   |    |
 | password      | Displays a field which masks the characters entered  |    |
@@ -82,7 +82,7 @@ Form objects are defined by their type.  The table below describes the valid typ
 | textarea      | Displays a multiline text field  |    |
 |  time     |  Displays a time picker |    |
 |  url     | Displays text which can be linked to an URL  |    |
-|  week     | Displays a week picker  |    |
+|  week     | Displays a week picker  | Allows optional text entry   |
 
 ### Object Properties
 
