@@ -95,7 +95,7 @@ All form objects share a common set of properties which modify their behavior.
 | ariaRole    | Provides accessible role for an object  | Valid roles are ...   |
 | bind     | Provides name and location of where values are written in data submission  | Use . notation to nest bindings within  data.    |
 | description    | Displays a text description of the field object, can be used for instructions |    |
-| id     | ??  | ??   |
+| id     | Used to identify a form object  |   |
 | label     | Displays a label to identify a field  |    |
 | mask    | Specifies how data is displayed while a user enters field data  |    |
 | name    | Name of the form object | Used to refer to a object in rules and logic.     |
