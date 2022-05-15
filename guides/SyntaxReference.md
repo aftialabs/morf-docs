@@ -36,9 +36,9 @@ The config section is the first section in the form description.
 | ----------- | ----------- | -------- |
 | submit     | Location where form data will be submitted via HTTP post.   |   URL       |
 | successUrl   | Location where form page will be redirected upon successful submission of form data.        |    URL      |
-| sitekey | | Unique Key|
+| sitekey | API authentication key required for form rendering| Unique Key|
 | theme  | CSS theme for styling the form.        |     URL of CSS    |
-|   externalId     | ??        |   ??   |      
+|   externalId     |         |   Alpha numberic ID   |      
 
 
 ## Head
@@ -87,43 +87,45 @@ Form objects are defined by their type.  The table below describes the valid typ
 ### Object Properties
 
 All form objects share a common set of properties which modify their behavior.
-ariaLabel
-ariaRole
-bind
-description
-disabled
-id 
-label
-mask
-name 
-placeholder
-readonly
-regex
-rules 
-value
-width
+
 
   | Syntax      | Description | Notes |
 | ----------- | ----------- | -------- |
 | ariaLabel     | Provides accessible description of an object | Overrides use of other properties when read by assistive technology.   |
 | ariaRole    | Provides accessible role for an object  | Valid roles are ...   |
 | bind     | Provides name and location of where values are written in data submission  | Use . notation to nest bindings within  data.    |
-| description    | Provides a text description of the field object, can be used for instructions |    |
-| id     | ...  |    |
-| label     | ...  |    |
-| mask    | ...  |    |
-| name    | ...  |    |
-| placeholder    | ...  |    |
-| readonly     | ...  |    |
-| regex     | ...  |    |
-| rules     | ...  |    |
-| value   | ...  |    |
-| width   | ...  |    |
-| ...     | ...  |    |
-| ...     | ...  |    |
-| ...     | ...  |    |
+| description    | Displays a text description of the field object, can be used for instructions |    |
+| id     | ??  | ??   |
+| label     | Displays a label to identify a field  |    |
+| mask    | Specifies how data is displayed while a user enters field data  |    |
+| name    | Name of the form object | Used to refer to a object in rules and logic.     |
+| placeholder    | Specifies text to be displayed in an empty field  | Used to prompt user for appropriate input   |
+| readonly     | Specifices if a form object is writable or read only  | Valid values are true and false   |
+| regex     | Regular expression  |  Pattern that must be matched for valid input  |
+| rules     | Validate rules  |    |
+| value   | Data value with which form object will be pre-populated  |    |
+| width   | Specifies the screen width the form object should occupy given sufficient space  | Valid values are full, half, quarter, third   |
 
 
 ### Panel
+
+The panel object groups other form objects together.   Form objects in the panel object are listed in the items array.  Panels may be dynamically added or removed.   The min and max properites dictate the minimum and maximum number or times the panel may be repeated.
+
+      {
+        "type": "panel",
+        "label": "panel label",
+        "name": "mypanel",
+        "width": "full",
+        "min" : 1,
+        "max" : 3,
+        "items": [
+          {
+            "type": ...
+          },
+          {
+            "type": ...
+          },
+        ]
+      },
 
 
