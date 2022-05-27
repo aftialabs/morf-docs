@@ -14,23 +14,22 @@ In order to use any Morf Service (API), you must provide a token for authenticat
 
 This siteKey (4fbfd303f2f74c6ea2ec3bc9ab44d454) is tied to the getmorf.io domain.   Your are prevented from rendering and submitting a Morf form using this siteKey on a domain other than getmorf.io.   In order to render and submit forms on other domains, you'll need to [request a valid siteKey](#requesting-a-siteKey) that is tied to that domain.
 
-Authentication Mechanisms:
+## Authentication Mechanisms:
 
+There are two ways of using the siteKey token.  
+<UL>
+ <li>As part of an API call where the token is present in the header 
+ <li>As part of a query where the token is present as a parameter in the URL
+</UL>
+    
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
 
-In order to request a siteKey, email the Morf team at [morf@aftia.com]("mailto:morf@aftia.com?subject=Morf siteKey Request") 
+In order to request a siteKey, email the Morf team at [morf@aftia.com](mailto:morf@aftia.com?subject=Morf%20siteKey%20Request).  
+You'll need to provide: 
+<ul>
+    <li>your name;
+    <li>your organization's name; and
+    <li>a valid domain from where the siteKey will be used.
+</ul>
 
-
-Requesting a token, needs:
-
-Valid domains from where the site-key can be used
-
-Header: API-Key
-
-Query Param: site-key
-
-Form configuration (used for render and submission):
-
-"config": {
-  "siteKey": "4fbfd303f2f74c6ea2ec3bc9ab44d454",
-}
+Any form submissions using this siteKey will consume one of your organization's licensed submission transactions.   If you are using the Morf free trial a submission will consume one of your 1,000 free transactions.
