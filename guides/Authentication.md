@@ -18,7 +18,7 @@ Authentication Mechanisms:
 
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
 
-In order to request a siteKey, email the Morf team at [morf@aftia.com](mailto:morf@aftia.com) 
+In order to request a siteKey, email the Morf team at [morf@aftia.com]("mailto:morf@aftia.com?subject=Morf siteKey Request") 
 
 
 Requesting a token, needs:
