@@ -1,3 +1,5 @@
+<img src="https://uploads-ssl.webflow.com/61e714dee6e03a006b829c3a/621cf6cde8ae4f61b08896b4_MORF%20Logo.svg" width="200" height="100" alt="Morf Logo">
+
 # Authenticating with Morf Services
 
 In order to use any Morf Service (API), you must provide a token for authentication.   This token is known as a siteKey and is tied to a specific domain. In the [Morf Editor](https://editor.getmorf.io/#/), you'll notice the siteKey in the config section at the top of the Morf form JSON.
