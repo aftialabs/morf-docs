@@ -2,7 +2,7 @@
 
 # Authenticating with Morf Services
 
-In order to use any Morf Service (API), you must provide a token for authentication.   This token is known as a siteKey and is tied to a specific domain. In the [Morf Editor](https://editor.getmorf.io/#/), you'll notice the siteKey in the config section at the top of the Morf form JSON.
+In order to use any Morf Service (API), you must provide a token for authentication.   This token is known as a siteKey and is tied to a specific domain. In the [Morf Editor](https://editor.getmorf.io/#/), you'll notice the `siteKey` in the config section at the top of the Morf form JSON.
 
     {
       "config": {
@@ -26,7 +26,7 @@ There are two ways of using the siteKey token.
     
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
 
-In order to request a siteKey, email the Morf team at [morf@aftia.com](mailto:morf@aftia.com?subject=Morf%20siteKey%20Request).  
+In order to request a siteKey, email the Morf team at [support@getmorf.io ](mailto:support@getmorf.io ?subject=Morf%20siteKey%20Request).  
 You'll need to provide: 
 <ul>
     <li>your name;
