@@ -8,7 +8,8 @@ This Github repo contains the documentation for Morf.  The documentation is crea
 ## Table of Contents
 1. [Getting Started](./guides/GettingStarted.md) - A guide for getting started with the Morf platform
 2. [Syntax Reference](./guides/SyntaxReference.md) - A syntax reference guide for defining your own Morf experiences
-3. [Contributing](#contibuting-to-morf-documentation) - How to contribute to this documentation
+3. [Power Automate](/guides/PowerAutomate.md) - A guide for connecting your Morf form to a MS Power Automate flow
+4. [Contributing](#contibuting-to-morf-documentation) - How to contribute to this documentation
 
 ## Contibuting to Morf Documentation
 We'd love to have your input! If you want to contribute to the Morf documentation (or samples), please create a Pull Request for your suggested updates or additions.
