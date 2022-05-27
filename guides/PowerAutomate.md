@@ -7,8 +7,8 @@ While literally any web server or application that can accept an HTTP POST could
 Microsoft's Power Automate is a low-code tool that can make it much simpler to receive and process the data.  With robust connectors to Adobe Acrobat Sign and Adobe PDF Services, powerful processing applications can quickly be created to generate and sign dynamic documents.
 Other standard connectors in Power Automate make the integration capabilities nearly endless.
 
-MS Power Automate processes are called 'Flows'.  In order for a Flow to execute it must be started by a 'trigger'.  Triggers can be manual, such as the click of a button, or automated, such as a request from another application.
-Microsoft calls the manual triggers 'Instant Cloud Flows' and the automated ones as "Automatic Cloud Flows".   To recieve a data submission with Power Automate you'll use the "When a HTTP request is received", an automatic cloud Flow trigger.  After creating a Flow with the "When a HTTP request is received" trigger and saving it, Power Automate will populate the HTTP POST URL property.
+MS Power Automate processes are called 'Flows'.  In order for a Flow to execute it must be started by a 'Trigger'.  Triggers can be manual, such as the click of a button, or automated, such as a request from another application.
+Microsoft calls the manual triggers 'Instant Cloud Flows' and the automated ones as "Automatic Cloud Flows".   To recieve a data submission with Power Automate you'll use the "When a HTTP request is received", an Automatic Cloud Flow Trigger.  After creating a Flow with the "When a HTTP request is received" trigger and saving it, Power Automate will populate the HTTP POST URL property.
 
 ![Power Automate HTTP step](pahttp.PNG)
 
