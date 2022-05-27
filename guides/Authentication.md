@@ -26,7 +26,8 @@ There are two ways of using the siteKey token.
     
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
 
-In order to request a siteKey, email the Morf team at [support@getmorf.io ](mailto:support@getmorf.io ?subject=Morf%20siteKey%20Request).  
+In order to request a siteKey, email the Morf team at [support@getmorf.io ](mailto:support@getmorf.io?subject=Morf%20siteKey%20Request).  
+
 You'll need to provide: 
 <ul>
     <li>your name;
