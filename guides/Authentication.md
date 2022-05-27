@@ -24,7 +24,7 @@ There are two ways of using the siteKey token.
     
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
 
-In order to request a siteKey, email the Morf team at [morf@aftia.com](mailto:morf@aftia.com?subject=Morf%20siteKey%20Request).  
+In order to request a siteKey, email the Morf team at [support@aftia.com](mailto:support@aftia.com?subject=Morf%20siteKey%20Request).  
 You'll need to provide: 
 <ul>
     <li>your name;
