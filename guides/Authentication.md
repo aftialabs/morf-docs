@@ -18,8 +18,8 @@ This siteKey (4fbfd303f2f74c6ea2ec3bc9ab44d454) is tied to the getmorf.io domain
 
 There are two ways of using the siteKey token.  
 <UL>
- <li>As part of an API call where the token is present in the header 
- <li>As part of a query where the token is present as a parameter in the URL
+ <li>as part of an API call where the token is present in the header; and 
+ <li>as part of a query where the token is present as a parameter in the URL.
 </UL>
     
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
