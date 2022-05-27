@@ -34,6 +34,6 @@ Copy the URL found in the HTTP POST URL property and insert it into the submit p
       
    Your next step in the flow, should initialize a varible and store the data submission in JSON format so it can be read and used during the processing of the flow.
    To do this, use the initial variable step.  Give your variable a name, such as data, and ensure the type is set to objecct.  Then set the value using the expression `json(triggerFormDataValue('data'))`, where data is the name of your variable.  
-   The JSON object you have just created will contain the data from the fields that have a bind value specified in the form.   This object can be used by other steps in your flow.
+   The JSON object you have just created will contain the data from the fields that have a bind value specified in the form.   This object can be used by other steps in your flow. 
    
    ![Power Automate Payload Initiation](painitpayload.PNG)
