@@ -24,7 +24,7 @@ There are two ways of using the siteKey token.
     
 ## Requesting a siteKey <a name="requesting-a-siteKey"></a>
 
-In order to request a siteKey, email the Morf team at [support@aftia.com](mailto:support@aftia.com?subject=Morf%20siteKey%20Request).  
+In order to request a siteKey, email the Morf team at [morf@aftia.com](mailto:morf@aftia.com?subject=Morf%20siteKey%20Request).  
 You'll need to provide: 
 <ul>
     <li>your name;
@@ -33,3 +33,5 @@ You'll need to provide:
 </ul>
 
 Any form submissions using this siteKey will consume one of your organization's licensed submission transactions.   If you are using the Morf free trial a submission will consume one of your 1,000 free transactions.
+
+Once you recieve your siteKey, use it to replace the siteKey in the config section of your form or in any queries to Morf servics.
