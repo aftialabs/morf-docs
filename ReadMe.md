@@ -9,9 +9,10 @@ This Github repo contains the documentation for Morf.  The documentation is crea
 1. [Getting Started](./guides/GettingStarted.md) - A guide for getting started with the Morf platform
 2. [Syntax Reference](./guides/SyntaxReference.md) - A syntax reference guide for defining your own Morf experiences
 3. [Authentication](./guides/Authentication.md) - Authenticating to Morf services
-4. [Submisson](./guids/Submission.md) - Submitting a Morf Form to a Service
+4. [Submisson](./guides/Submission.md) - Submitting a Morf Form to a Service
 5. [Power Automate](./guides/PowerAutomate.md) - A guide for connecting your Morf form to a MS Power Automate flow
-6. [Contributing](#contibuting-to-morf-documentation) - How to contribute to this documentation
+6. [Embed](./guides/Embed.md) - Embedding a Morf Form into a Web Page
+7. [Contributing](#contibuting-to-morf-documentation) - How to contribute to this documentation
 
 ## Contibuting to Morf Documentation
 We'd love to have your input! If you want to contribute to the Morf documentation (or samples), please create a Pull Request for your suggested updates or additions.
