@@ -15,11 +15,9 @@ Instead of trying create yet another drag and drop form editor, Morf allows you 
 To create your first Morf form, navigate to https://editor.getmorf.io/.  In the left-hand panel, you can edit the form defintion.   In the right-hand pane you can see a real-time preview of the form.
 
 The definition consists of 3 main sections: 
-<ul>
-  <li>config</li>
-  <li>head</li>
-  <li>body</li>  
-</ul>
+* config
+* head
+* body 
 
 The config section contains configurations that affect the whole form, such as the submission endpoint or theme to style the form.  The head section describes the form and contains elements such as the title and logo.  The body section contains the field objects and their properties and organization elements such as panels.
 
@@ -57,6 +55,7 @@ Let's add an email field between the last name and the enrollment type.  In the 
             "label": "Enrollment type",
             "options": [
               {
+              ...
 
 Between the curly braces enter the word type.  The editor should suggest valid types, select email.   The editor will automatically add quotes and a colon for you.  End the line with a comma.   Now enter the word label and Email Address. Again, end the line with a comma. Enter the word width and the word half. No comma is required after this line.  Your email field object definition should look like this:
 
@@ -75,27 +74,18 @@ Building your form from scratch can be time consuming, but thankfully Morf provi
 
 ### Using Microsoft Word Documents
 
-To indicate where data should appear in your document, simply identify the location with double curly braces {{ }} and the name of the field in quotes. For example {{"firstname"}}.   If you want to group some fields together, use dot notation.  Like this - {{"vendor.firstname"}} {{"vendor.lastname"}}.
+To indicate where data should appear in your document, simply identify the location with double curly braces `{{ }}` and the name of the field. For example `{{firstname}}`. To nest objects in a data structure, use the dot notation like so `{{vendor.firstname}}`.
 
 To make the tagging process easier, install the [Adobe Document Generation Word Add-in ](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin/).  The add-in will help you tag the document, create repeating tables and lists, insert calculations and [text tags for Adobe Sign esignatures](https://helpx.adobe.com/sign/using/text-tag.html).
 
-When you are finished tagging your Word document, click on convert in the [Morf editor](https://editor.getmorf.io/) to upload the file.   Morf will generate your form.  You'll notice that each field object has an associated "bind" element which matches the double curly brace tags you created.  
+When you are finished tagging your Word document, click on convert in the [Morf editor](https://editor.getmorf.io/) to upload the file. Morf will generate your form.  You'll notice that each field object has an associated "bind" element which matches the double curly brace tags you created.  
 
-N.B. Adobe Sign text tags are not converted into field objects.  These text tags will become fields during the signing process.
+**N.B.** Adobe Sign text tags are not converted into field objects.  These text tags will become fields during the signing process.
 
 ## Submitting Data
 
-The data that is captured in your Morf form needs to be submitted to some endpoint.  You can configure this in the submit element at the top of the form definition by entering the URL where you want to post the data. This endpoint must be setup to accept an HTTP Post, for example a Microsoft Power Automate flow. You can also configure the successUrl, which is the location that the user will be redirected to after a successful form submission.
-
-    {
-      "config": {
-        "submit": "https://yourserver.com/",
-        "successUrl": "http://getmorf.io,/",
-        "theme": "",
-        "externalId": ""
-      },
-
+The data that is captured in your Morf form needs to be submitted to some endpoint.  You can configure this in the submit element at the top of the form definition by entering the URL where you want to post the data. For more information, have a look at our [Submission](./Submission.md) documentation.
 ## Sample
 
 Wanna try it?  We've put together some [sample assets and a script of instructions](https://github.com/aftialabs/morf-samples/tree/main/Grant%20Application) for you.
-This sample will help you build your form from a Word template, populate the Word file with form data and send for signature using Adobe Sign. The process is orchestrated with Microsoft Power Automate.   Enjoy! If you have any issues, contact our [Slack channel](https://getmorf.slack.com/archives/C03BGBRN32Q).
+This sample will help you build your form from a Word template, populate the Word file with form data and send for signature using Adobe Sign. The process is orchestrated with Microsoft Power Automate.   Enjoy! If you have any issues, contact our [Slack channel](https://getmorf.slack.com/join/signup).
