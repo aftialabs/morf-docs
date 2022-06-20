@@ -91,26 +91,27 @@ All form objects share a common set of properties which modify their behavior.
 
   | Syntax      | Description | Notes |
 | ----------- | ----------- | -------- |
-| ariaLabel     | Provides accessible description of an object | Overrides use of other properties when read by assistive technology.   |
-| ariaRole    | Provides accessible role for an object  | Valid roles are ...   |
-| bind     | Provides name and location of where values are written in the JSON data used during submission  | Use a valid JSON dot (.) notation to nest bindings within data. Repetable panels can use the `[*]` to indicate that the number of instances will be dynamically controlled by the form.    |
-| dataType    | Defines the type of data contained in the field. This attribute is used to validate the input |    |
+| ariaLabel     | Provides accessible description of an object | **Note:** Preview only, not a generally available feature. Overrides use of other properties when read by assistive technology.   |
+| ariaRole    | Provides accessible role for an object  | **Note:** Preview only, not a generally available feature.   |
+| bind     | Provides name and location of where values are written in the JSON data used during submission  | Use a valid JSON dot (`.`) notation to nest bindings within data. Repeatable panels can use the `[*]` to indicate that the number of instances will be dynamically controlled by the form. E.g. `root.repeated[*]` where the child `panel` has `min` and/or `max` properties.    |
+| dataType    | Defines the type of data contained in the field. This attribute is used to validate the input | Valid values are `alpha`, `alphaNum`, `numeric`, `integer`, `decimal`, `email`, `url`.   |
 | description    | Displays a text description of the field object, can be used for instructions |    |
-| disabled     | Specifies if a form object is interactive or read-only  | Valid values are true and false   |
+| disabled     | Specifies if a form object is interactive or read-only  | Valid values are `true` and `false`. Default: `false`.   |
 | id     | Used to identify a form object  |   |
 | label     | Displays a label to identify a field  |    |
-| mask    | Specifies how data is displayed while a user enters field data  |    |
-| minLength    | Specifies the minimum length of the entered field value  |    |
-| maxLength    | Specifies the maximum length of the entered field value  |    |
-| minValue    | Specifies the minimum value of the entered field value (numeric)  |    |
-| maxValue    | Specifies the maximum value of the entered field value (numeric)  |    |
+| mask    | Specifies how data is displayed while a user enters field data  | **Note:** Preview only, not a generally available feature. |
+| minLength    | Specifies the minimum length of the entered field value  | Accepts numerical values |
+| maxLength    | Specifies the maximum length of the entered field value  | Accepts numerical values |
+| minValue    | Specifies the minimum value of the entered field value  | Accepts numerical values |
+| maxValue    | Specifies the maximum value of the entered field value  | Accepts numerical values |
 | name    | Name of the form object. Will be used as a relative `bind` path if one is not specified | Used to refer to a object in rules and logic.     |
 | placeholder    | Specifies text to be displayed in an empty field  | Used to prompt user for appropriate input   |
-| regex     | Regular expression  |  Pattern that must be matched for valid input  |
-| rules     | Validate rules  |    |
-| value   | Data value with which form object will be pre-populated  |    |
-| validation   | Specifies if default field validation should be applied  |    |
-| width   | Specifies the screen width the form object should occupy given sufficient space  | Valid values are full, half, quarter, third   |
+| regex     | Regular expression  |  Pattern that must be matched for input validation.  |
+| rules     | Array of event/rule objects that will be bound to the form element  | **Note:** Preview only, not a generally available feature.  |
+| required     | Specifies if a form object is required or optional  | Valid values are `true` and `false`. Default: `true` | 
+| value   | Data value with which will be used to pre-populated the form element | Valid values are alpha numerical. |
+| validation   | Specifies if the default `dataType` field validation should be applied. E.g. `"type": "email"` will automatically validate that the input is a valid email address format.  | Valid values are `true` and `false`. Default: `true` |
+| width   | Specifies the screen width the form object should occupy given sufficient space  | Valid values are `full`, `half`, `quarter`, `third`   |
 
 
 ### Panel
