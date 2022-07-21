@@ -7,24 +7,26 @@ In order to use any Morf Service (API), you must provide a token for authenticat
 ```
 "config": {
     "submit": "",
-    "siteKey": "4fbfd303f2f74c6ea2ec3bc9ab44d454",
+    "siteKey": "abc123",
     "successUrl": "",
     "theme": "",
     "externalId": ""
 }
 ```
 
-This siteKey (`4fbfd303f2f74c6ea2ec3bc9ab44d454`) is tied to the getmorf.io domain. You are prevented from rendering and submitting a Morf form using this `siteKey` on a domain other than `getmorf.io`. In order to render and submit forms on other domains, you'll need to [request a valid siteKey](#requesting-a-sitekey) that is tied to that domain.
+In this example, the siteKey (`abc123`) is tied to a specific domain. In order to render and submit forms on other domains, you'll need to [request a valid siteKey](#requesting-a-sitekey) that is tied to that domain.
 
 ## Authentication Mechanisms
 
-There are two ways of using the `siteKey` token.  
-* as part of an API call where the token is present in the header; and 
-* as part of a query where the token is present as a parameter in the URL.
+There are two ways of using an API token.  
+* as part of an API call where the token is present in the `API-Key` header; and 
+* as part of a request where the token is present in the `siteKey` query parameter of the URL (e.g. `https://render.getmorf.io/v1?site-key=abc123`).
+
+For security reasons, a siteKey should not be used to access API services since a siteKey is designed to be available publicly whereas an API Key is not.
     
 ## Requesting a siteKey
 
-In order to request a `siteKey`, email the Morf team at [support@getmorf.io](mailto:support@getmorf.io?subject=Morf%20siteKey%20Request).  
+In order to request a `siteKey`, email the Morf team at [support@getmorf.io](mailto:support@getmorf.io?subject=Morf%20siteKey%20Request&body=*%20Name%3A%0D%0A*%20Organization%20Name%3A%0D%0A*%20Valid%20domain(s)%3A).  
 
 You'll need to provide: 
 * your name;
@@ -33,4 +35,4 @@ You'll need to provide:
 
 Any form submissions using this `siteKey` will consume one of your organization's licensed submission transactions. If you are using the Morf free trial a submission will consume one of your 1,000 free transactions.
 
-Once you recieve your `siteKey`, use it to replace the `siteKey` in the config section of your form or in any queries to Morf services.
+Once you receive your `siteKey`, use it to replace the `siteKey` in the config section of your form or in any queries to Morf services.
