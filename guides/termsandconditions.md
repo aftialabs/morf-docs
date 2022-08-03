@@ -97,6 +97,13 @@ The Customer will indemnifies Aftia and it;s subsidiaries, affiliates, officers,
 based on any theory of liability, including breach of contract or warranty, negligence, or other tortious action; or 
 3. arising out of or in connection with the Customer’s use of or access to the Software.
 
+## Data Policy
+
+Aftia does not retain form data submitted or processed through the Morf Render, Submission and Conversion Services.  Form data is securely passed on to other services for processed and storage. 
+
+Data about Customers, and the Customer's users is retained and stored for the purpose of administering and managing customer forms, reports, and other application assets.  Customers can request that their users data be permanently deleted should they stop using the Software, or if the deletion does not impact the regular operation of their use of the Software. Aftia stores Customer and user data in Microsoft Azure Cosmo DB in the NA region. Backups are taken on a regular basis. All data is encrypted using industry-standard methods when stored on disk or transmitted over the network. Only authorised staff may have access to Customer or their user's data.
+
+
 ## Privacy
 Need to Determine Applicable Privacy Laws and Aftia’s policy regarding not storing data
 
@@ -117,6 +124,7 @@ as a final option, where Aftia has first used all commercially reasonable effort
 
 ## Update to Terms
 Aftia may make changes to the Terms from time to time, and will notify the Licensee by revising the date at the top of the Terms and, in some cases, may provide the Licensee with additional notice. Unless otherwise noted, the amended Terms will be effective immediately, and continued use of our Software will confirm acceptance of the changes. If the Licensee does not agree to the amended Terms, the Customer must stop using the  Software.
+
 ## Definitions
 - “Aftia” means a Canadian software and services corporation located at 6 Antares Drive Unit #203, Ottawa Ontario Canada, K2E 8A9
 - “Agreement” means this document and associated Sales Order(s) together with any exhibits included with the applicable Sales Order.
