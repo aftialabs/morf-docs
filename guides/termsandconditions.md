@@ -5,13 +5,25 @@
 ## Terms of Use
 Aftia software and related services are licensed, not sold. These Terms of Use (‘Terms”) govern the Customer’s use of and access to our website, customer support, discussion forums or other interactive areas or services, and services such as the Morf Render, Submission and Conversion Services and any applications, including mobile applications, sample files, scripts, instruction sets, reports and related documentation (collectively, the “Software”).
 
+## Payment
+Customer must pay the fees according to the payment terms in the Sales Order. Aftia may charge interest at a monthly rate equal to the lesser of 1% per month or the maximum rate permitted by applicable law on any overdue fees, from the due date until the date the overdue amount (plus applicable interest) is paid in full. 
+
+Any fees that are unpaid as of the date of termination or expiration will be immediately due and payable. Customer agrees to provide clear indication within its form of payment, as to which invoices payment should be applied no later than the date of payment. If Customer is not a publicly-traded corporation, upon Aftia's request, Customer will provide the necessary financial documents to allow Aftia to ascertain the credit-worthiness of Customer.
+
+If Customer fails to pay any amount due under this Agreement according to the payment terms in the Sales Order, Aftia will send Customer a reminder notice. If Customer fails to pay within 15 days of the date of the reminder notice, Aftia may, in its sole discretion, terminate the applicable Sales Order or suspend or restrict the provision of any and all products and services. 
+
+If Customer believes in good faith that Aftia has incorrectly billed Customer, Customer must contact Aftia in writing within 30 days of the invoice date, specifying the error. Unless Customer has correctly notified Aftia of the dispute, Customer must reimburse Aftia’s reasonable collection costs. Customer must pay the undisputed portions of Aftia’s invoice as required by this Agreement. 
+
+Prices do not include applicable taxes. Aftia will invoice Customer for any applicable taxes, and Customer must pay these taxes. Where applicable, Customer must provide a tax-exemption claim to Aftia before placing an order. If Customer is required to withhold income taxes from its payment to Aftia, Customer agrees to send Aftia an official tax receipt within 60 days of payment to Aftia.
+
+
 ## Delivery
 The Software is deemed to be delivered and accepted by the Customer on the License Term start date.
 
 ## License and Restrictions
 Subject to the Terms of this Agreement, Aftia grants Customer for its direct beneficial business purposes, during the License Term, a non-transferable, non-exclusive license, to: 
 1. Permit Users to access the Software through the applicable interfaces; 
-2.. Develop and test to evaluate potential configurations of the Software;
+2. Develop and test to evaluate potential configurations of the Software;
 3. Install, implement, and use the Distributed Code on Customer devices and sites; 
 4. Permit End Users to access applications built by the Customer using the applicable interfaces; and
 5. Use the Software in accordance with the Documentation. 
@@ -37,7 +49,7 @@ Morf is a data capture platform allowing organizations to create, generate and m
 - The ability to have three (3) Production Forms at any one time.
 - One Thousand (1,000) total Form Submissions in total.
 
-    And restricts  the Customer from embedding the Production Form in a website or displaying the form without Morf branding.
+  And restricts  the Customer from embedding the Production Form in a website or displaying the form without Morf branding.
 
 ### Morf Tier 1 (Standard) which includes: 
 - The ability to create an unlimited of Draft Forms
