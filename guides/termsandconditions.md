@@ -18,9 +18,8 @@ Subject to the Terms of this Agreement, Aftia grants Customer for its direct ben
 3. Install, implement, and use the Distributed Code on Customer devices and sites; 
 4. Permit End Users to access applications built by the Customer using the applicable interfaces; and
 5. Use the Software in accordance with the Documentation. 
-Except to the extent expressly permitted under this Agreement, Customer agrees as a condition of the licenses that it must not: 
 
-Use the Software in:
+Except to the extent expressly permitted under this Agreement, Customer agrees as a condition of the licenses that it must not use the Software in:
 
 6. Violation of any applicable law or regulation, or in connection with unlawful material (such as material that violates any obscenity, defamation, harassment, privacy, publicity or intellectual property laws); or 
 7. A manner that would cause a material risk to the security or operations of Aftia or any of its customers, or to the continued normal operation of other Aftia customers. 
