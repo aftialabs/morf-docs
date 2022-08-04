@@ -2,20 +2,11 @@
 
 # Morf Terms and Conditions
 
+## Trademark
+Morf is a trademark of Aftia Solution inc.
+
 ## Terms of Use
 Aftia software and related services are licensed, not sold. These Terms of Use (‘Terms”) govern the Customer’s use of and access to our website, customer support, discussion forums or other interactive areas or services, and services such as the Morf Render, Submission and Conversion Services and any applications, including mobile applications, sample files, scripts, instruction sets, reports and related documentation (collectively, the “Software”).
-
-## Payment
-Customer must pay the fees according to the payment terms in the Sales Order. Aftia may charge interest at a monthly rate equal to the lesser of 1% per month or the maximum rate permitted by applicable law on any overdue fees, from the due date until the date the overdue amount (plus applicable interest) is paid in full. 
-
-Any fees that are unpaid as of the date of termination or expiration will be immediately due and payable. Customer agrees to provide clear indication within its form of payment, as to which invoices payment should be applied no later than the date of payment. If Customer is not a publicly-traded corporation, upon Aftia's request, Customer will provide the necessary financial documents to allow Aftia to ascertain the credit-worthiness of Customer.
-
-If Customer fails to pay any amount due under this Agreement according to the payment terms in the Sales Order, Aftia will send Customer a reminder notice. If Customer fails to pay within 15 days of the date of the reminder notice, Aftia may, in its sole discretion, terminate the applicable Sales Order or suspend or restrict the provision of any and all products and services. 
-
-If Customer believes in good faith that Aftia has incorrectly billed Customer, Customer must contact Aftia in writing within 30 days of the invoice date, specifying the error. Unless Customer has correctly notified Aftia of the dispute, Customer must reimburse Aftia’s reasonable collection costs. Customer must pay the undisputed portions of Aftia’s invoice as required by this Agreement. 
-
-Prices do not include applicable taxes. Aftia will invoice Customer for any applicable taxes, and Customer must pay these taxes. Where applicable, Customer must provide a tax-exemption claim to Aftia before placing an order. If Customer is required to withhold income taxes from its payment to Aftia, Customer agrees to send Aftia an official tax receipt within 60 days of payment to Aftia.
-
 
 ## Delivery
 The Software is deemed to be delivered and accepted by the Customer on the License Term start date.
@@ -49,13 +40,10 @@ Morf is a data capture platform allowing organizations to create, generate and m
 - The ability to have three (3) Production Forms at any one time.
 - One Thousand (1,000) total Form Submissions in total.
 
-  And restricts  the Customer from embedding the Production Form in a website or displaying the form without Morf branding.
-
 ### Morf Tier 1 (Standard) which includes: 
 - The ability to create an unlimited of Draft Forms
 - The ability to have ten (10) Production Forms at any one time.
 - Twelve Thousand (12,000) total Form Submissions per year
-And restricts  the Customer from embedding the Production Form in a website.
 
 ### Morf Tier 2 (Premium) which includes: 
 - The ability to create an unlimited of Draft Forms
@@ -73,11 +61,12 @@ A Licensee of Morf Basic, Standard or Professional may license the Morf Add-On P
 - Twenty (20) Production Forms
 - Ten thousand (10,000) total Form Submissions per year
 
-## Overages
-The customer may exceed the total annual volume of Form Submissions or Forms in Production in their License Term by up to 25% without incurring additional cost. Upon the renewal of their License Term, the customer must purchase additional licenses or tiers to cover their future use of the Software by the volume or forms exceeded during the prior License Term, or provide a reasonable explanation of why this volume is not required in the future.   If a customer exceeds their total annual volume of Form Submissions or Forms in Production in their License Term by more than 25%, the Customer must obtain additional licenses or tiers to cover their usage in the current License Term.  
+## Customer Communications 
+By accepting the terms of this agreement, the Customer consents to being contacted by Aftia for support, sales or marketing purposes. 
+
 ## Use of the Software.
 ### License
-Subject to the Customer’s compliance with the Terms and applicable law, Customer may access and use the Software that Aftia makes available, and that the Customer licenses from  Aftia. The license(s) expires at the end of the term set forth in the Sales Order document. The Customer agrees that the decision to use or purchase Software is not contingent on the delivery of any future functionality or features, or dependent on any oral or written public comments made by Aftia regarding future functionality or features.
+Subject to the Customer’s compliance with the Terms and applicable law, Customer may access and use the Software that Aftia makes available, and that the Customer licenses from  Aftia. The license(s) expires at the end of the term set forth in the Sales Order document or in the case of a free trial, the limitiations described in this document in the Product Description Section. The Customer agrees that the decision to use or purchase Software is not contingent on the delivery of any future functionality or features, or dependent on any oral or written public comments made by Aftia regarding future functionality or features.
 
 ### Aftia Intellectual Property. 
 Aftia) remains the sole owner of all right, title, and interest in the Software. Except as stated in the Terms, Aftia does not grant the Customer any rights to patents, copyrights, trade secrets, trademarks, or any other rights in respect to the items in the Software. Aftia reserves all rights not granted under the Terms.  
@@ -99,13 +88,18 @@ based on any theory of liability, including breach of contract or warranty, negl
 
 ## Data Policy
 
-Aftia does not retain form data submitted or processed through the Morf Render, Submission and Conversion Services.  Form data is securely passed on to other services for processed and storage. 
+Aftia does not retain form data submitted or processed through the Morf Render, Submission and Conversion Services.  Form data is securely passed on to other services for processing and storage. 
 
 Data about Customers, and the Customer's users is retained and stored for the purpose of administering and managing customer forms, reports, and other application assets.  Customers can request that their users data be permanently deleted should they stop using the Software, or if the deletion does not impact the regular operation of their use of the Software. Aftia stores Customer and user data in Microsoft Azure Cosmo DB in the NA region. Backups are taken on a regular basis. All data is encrypted using industry-standard methods when stored on disk or transmitted over the network. Only authorised staff may have access to Customer or their user's data.
 
 
 ## Privacy
-Need to Determine Applicable Privacy Laws and Aftia’s policy regarding not storing data
+By agreeing to these terms and conditions, the Customer agrees to permit Aftia to track platform and form usage in order to provide reporting capabilities and enhance the platform.  Examples of this are:
+- renders
+- submissions
+- bounce rate
+- form fill time and form user activity
+
 
 ## Terms of termination 
 ### Termination for Cause
