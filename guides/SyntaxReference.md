@@ -98,6 +98,7 @@ All form objects share a common set of properties which modify their behavior.
 | description    | Displays a text description of the field object, can be used for instructions |    |
 | disabled     | Specifies if a form object is interactive or read-only  | Valid values are `true` and `false`. Default: `false`.   |
 | id     | Used to identify a form object  |   |
+| invalidMessage     | A custom validation message to be displayed for invalid fields  |   |
 | label     | Displays a label to identify a field  |    |
 | mask    | Specifies how data is displayed while a user enters field data  | **Note:** Preview only, not a generally available feature. |
 | minLength    | Specifies the minimum length of the entered field value  | Accepts numerical values |
@@ -106,7 +107,7 @@ All form objects share a common set of properties which modify their behavior.
 | maxValue    | Specifies the maximum value of the entered field value  | Accepts numerical values |
 | name    | Name of the form object. Will be used as a relative `bind` path if one is not specified | Used to refer to a object in rules and logic.     |
 | placeholder    | Specifies text to be displayed in an empty field  | Used to prompt user for appropriate input   |
-| regex     | Regular expression  |  Pattern that must be matched for input validation.  |
+| regex     | Regular expression  |  Pattern that must be matched for input validation. **Note:** Slashes (`\`) are escape characters in JSON. To use them in your pattern, make sure to include a double escape e.g. (`\\`)  |
 | rules     | Array of event/rule objects that will be bound to the form element  | **Note:** Preview only, not a generally available feature.  |
 | required     | Specifies if a form object is required or optional  | Valid values are `true` and `false`. Default: `true` | 
 | value   | Data value with which will be used to pre-populated the form element | Valid values are alpha numerical. |
