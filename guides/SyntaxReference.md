@@ -62,10 +62,11 @@ Form objects are defined by their `type` property.  The table below describes th
   | Syntax      | Description | Notes |
 | ----------- | ----------- | -------- |
 | button      | Displays a button  |    |
-| checkbox      | Displays one or more checkboxes in a group | Contains an `options` array to list checkboxes in the group   |
+| checkbox      | Displays one or more checkboxes in a group | Contains an `options` array to list checkboxes in the group. The `options` array is composed of objects with `label` and `value` properties   |
 | color      | Displays a color picker  |    |
 | date      | Displays a date field with date picker  |  Allows optional text entry  |
 | datetimelocal      | Displays a date and time field with date/time picker  | Allows optional text entry   |
+| dropdown      | Displays a dropdown field with the ability to select an option  | Contains an `options` array to dropdown values. The `options` array is composed of objects with `label` and `value` properties  |
 | email      | Displays a text field that validates email address format  |    |
 | file      | Displays a file picker object  |    |
 | hidden      | Creates a hidden fields  | This object can be used to hold values/variables off screen   |
@@ -73,7 +74,8 @@ Form objects are defined by their `type` property.  The table below describes th
 | number      | Displays a field which only allow numberical values  |    |
 | panel      | Display a panel object for grouping objects together   |    |
 | password      | Displays a field which masks the characters entered  |    |
-| radio      | Displays one or more radio buttons in a group |  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive.  |
+| paragraph      | Displays a static text paragraph |    |
+| radio      | Displays one or more radio buttons in a group |  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive. The `options` array is composed of objects with `label` and `value` properties |
 | range      | Displays a slider for selecting a range  |    |
 | reset      | Displays a button for clearing form data  |    |
 | search      | Displays a text field with X for clearing value  |    |
