@@ -117,9 +117,10 @@ Aftia may make changes to the Terms from time to time, and will notify the Licen
 - “Documentation” means the applicable technical specification and usage documentation for the Software as such materials are made generally available on Aftia’s website. “Documentation” does not include any third-party content posted to User forums hosted or moderated by Aftia, content related to any future functionality, or communications exchanged between Aftia and Customer, unless such communications are specifically incorporated by reference within the applicable Sales Order.
 - “Draft Forms” means any forms or documents which have been created using the Software but are not available for general use by End Users.
 - “End Users” means any third party individuals or organizations directed by the Customer to use applications built by the Customer using the Software.
-- “Form Submissions” the submission of data by and End User to services made available by the Software.
+- "Form Data" means any data entered by and End User or populated into a form by another service or application.
+- “Form Submissions” the submission of data by an End User to services made available by the Software.
 “License Term” means the earlier of the duration of the license for the Software as stated in the Sales Order, or any shorter term arising from a termination or expiration of this Agreement.
-- “Morf Render, Submission and Conversion Services”  means the core set of APIs and related processing which enables the creation, rendering and submission of form data.
+- “Morf Render, Submission and Conversion Services” or "Services"  means the core set of APIs and related processing which enables the creation, rendering and submission of form data.
 - “Party” means either the Customer or Aftia, as applicable. 
 - “Production Forms”  means any forms or documents which have been created using the Software available for general use by End Users
 - “Sales Order” means the sales order form, statement of work, or other written document for the Software that is executed between Aftia and Customer.
