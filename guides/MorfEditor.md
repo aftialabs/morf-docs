@@ -1,7 +1,7 @@
 # Morf Editor
 
 ## Overview
-The Morf Editor is the tool for creating and editing Morf data capture experiences.   The left hand pane of the editor contains the Morf form defintion in JSON format, while the right hand pane contains the form in a live preview mode.  Changes to the JSON form definition are immediately reflected in the live preview.
+The Morf Editor is the tool for creating and editing Morf data capture experiences.  The editor can be found at https://editor.getmorf.io/.  The left hand pane of the editor contains the Morf form defintion in JSON format, while the right hand pane contains the form in a live preview mode.  Changes to the JSON form definition are immediately reflected in the live preview.
 The form definition must comply with the markup in the Morf [Syntax Reference](SyntaxReference.md).
 
 ![image](https://user-images.githubusercontent.com/17143489/187986114-11088f71-d582-4419-afd4-5efb7f95e8a4.png)
@@ -31,4 +31,4 @@ This links to our [documentation](https://github.com/aftialabs/morf-docs)
 The Morf Slack channel lets you access the Morf Support, Product Management, Marketing and Engineering team as well as other users of Morf.
 
 ### Settings
-Setting provides a place for you to save your site key and enable/disable the product tour and show/hide Morf UI branding.
+Settings provides a place for you to save your site key and enable/disable the Morf product tour and show/hide the Morf UI branding.  Morf UI branding can also be controlled by a the URL parameter 'brand' with a value of true or false.  For example https://editor.getmorf.io/?brand=false will hide the branding while https://editor.getmorf.io/?brand=true will cause the branding to display (the default).
