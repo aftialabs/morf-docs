@@ -86,7 +86,7 @@ based on any theory of liability, including breach of contract or warranty, negl
 3. arising out of or in connection with the Customer’s use of or access to the Software.
 
 ## Privacy Policy
-
+Morf's data and privacy policy can be found [here](/PrivacyPolicy.md)
 
 ## Terms of termination 
 ### Termination for Cause
