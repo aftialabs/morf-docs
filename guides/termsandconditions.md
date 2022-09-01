@@ -85,8 +85,8 @@ The Customer will indemnifies Aftia and it;s subsidiaries, affiliates, officers,
 based on any theory of liability, including breach of contract or warranty, negligence, or other tortious action; or 
 3. arising out of or in connection with the Customer’s use of or access to the Software.
 
-## Privacy Policy
-Morf's data and privacy policy can be found [here](/PrivacyPolicy.md).
+## Data and Privacy Policy
+Morf's data and privacy policy can be found [here](DataandPrivacyPolicy.md).
 
 ## Terms of termination 
 ### Termination for Cause
