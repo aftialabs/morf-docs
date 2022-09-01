@@ -13,7 +13,7 @@ This Github repo contains the documentation for Morf.  The documentation is crea
 5. [Power Automate](./guides/PowerAutomate.md) - A guide for connecting your Morf form to a MS Power Automate flow
 6. [Embed](./guides/Embed.md) - Embedding a Morf Form into a Web Page
 7. [Terms and Conditions](./guides/termsandconditions.md) - Terms and Conditions of using Morf
-8. [Privacy Policy](./guides/PrivacyPolicy.md) - Privacy and Data Policy
+8. [Privacy Policy](./guides/DataandPrivacyPolicy.md) - Privacy and Data Policy
 9. [Contributing](#contibuting-to-morf-documentation) - How to contribute to this documentation
 
 ## Contibuting to Morf Documentation
