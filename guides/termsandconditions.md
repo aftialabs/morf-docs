@@ -68,7 +68,7 @@ By accepting the terms of this agreement, the Customer consents to being contact
 Subject to the Customer’s compliance with the Terms and applicable law, Customer may access and use the Software that Aftia makes available, and that the Customer licenses from  Aftia. The license(s) expires at the end of the term set forth in the Sales Order document or in the case of a free trial, the limitiations described in this document in the Product Description Section. The Customer agrees that the decision to use or purchase Software is not contingent on the delivery of any future functionality or features, or dependent on any oral or written public comments made by Aftia regarding future functionality or features.
 
 ### Aftia Intellectual Property. 
-Aftia) remains the sole owner of all right, title, and interest in the Software. Except as stated in the Terms, Aftia does not grant the Customer any rights to patents, copyrights, trade secrets, trademarks, or any other rights in respect to the items in the Software. Aftia reserves all rights not granted under the Terms.  
+Aftia remains the sole owner of all right, title, and interest in the Software. Except as stated in the Terms, Aftia does not grant the Customer any rights to patents, copyrights, trade secrets, trademarks, or any other rights in respect to the items in the Software. Aftia reserves all rights not granted under the Terms.  
 
 ### Free memberships, offers, and trials. 
 Aftia Inc. may offer free memberships, offers, and trial memberships in its sole discretion. If access to the Software is provided to the customer for free or for trial purposes, such access is governed by these Terms. At any time prior to or during the free or trial period, Aftia may, in its sole discretion, terminate the free or trial access without prior notice and without any liability to the Customer, to the extent permitted under applicable law, for any reason, including to prevent abuse of the free or trial access. After the free or trial access period expires, the Customer may only continue using the Software by enrolling in a paid subscription, if available, or as otherwise permitted by Aftia. During the free or trial period, no express or implied warranties shall apply to the Software, the Software is provided “as-is” with all defects, and no technical or other support is included.
@@ -85,19 +85,7 @@ The Customer will indemnifies Aftia and it;s subsidiaries, affiliates, officers,
 based on any theory of liability, including breach of contract or warranty, negligence, or other tortious action; or 
 3. arising out of or in connection with the Customer’s use of or access to the Software.
 
-## Data Policy
-
-Aftia does not retain form data submitted or processed through the Morf Render, Submission and Conversion Services.  Form data is securely passed on to other services for processing and storage. 
-
-Data about Customers, and the Customer's users is retained and stored for the purpose of administering and managing customer forms, reports, and other application assets.  Customers can request that their users data be permanently deleted should they stop using the Software, or if the deletion does not impact the regular operation of their use of the Software. Aftia stores Customer and user data in Microsoft Azure Cosmo DB in the NA region. Backups are taken on a regular basis. All data is encrypted using industry-standard methods when stored on disk or transmitted over the network. Only authorised staff may have access to Customer or their user's data.
-
-
-## Privacy
-By agreeing to these terms and conditions, the Customer agrees to permit Aftia to track platform and form usage in order to provide reporting capabilities and enhance the platform.  Examples of this are:
-- renders
-- submissions
-- bounce rate
-- form fill time and form user activity
+## Privacy Policy
 
 
 ## Terms of termination 
