@@ -80,7 +80,13 @@ To make the tagging process easier, install the [Adobe Document Generation Word 
 
 When you are finished tagging your Word document, click on convert in the [Morf editor](https://editor.getmorf.io/) to upload the file. Morf will generate your form.  You'll notice that each field object has an associated "bind" element which matches the double curly brace tags you created.  
 
-**N.B.** Adobe Sign text tags are not converted into field objects.  These text tags will become fields during the signing process.
+**N.B.** Adobe Sign text tags are not converted into field objects.  They become signature fields on the document during the signing process.
+
+### Using PDF Forms
+
+Many organizations use PDF forms that allow the user to fill in Adobe Acrobat Reader and email, or print a document for signature. Adobe Acrobat provides the capability to create these forms by laying form fields on top of an exisitng PDF.   Morf converts the form fields in the PDF into the appropriate Morf form fields.  Field names and binding are determined based on the field names in the PDF.  Labels are based on text near the field. 
+
+Note: XFA-based PDF documents are not yet supported.
 
 ## Submitting Data
 
