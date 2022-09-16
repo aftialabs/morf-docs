@@ -318,7 +318,8 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "tel",
-  "label": "Mobile Number"
+  "label": "Mobile Number",
+  "bind" : "mobile_value"
 }
 ```
 </td></tr>
@@ -349,6 +350,7 @@ Form objects are defined by their `type` property.  The table below describes th
 {
   "type": "time",
   "label": "Time"
+  "bind" : "time_value"
 }
 ```
 </td></tr>
@@ -365,7 +367,8 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "week",
-  "label": "Week"
+  "label": "Week",
+  "bind" : "week_value"
 }
 ```
 </td></tr>
