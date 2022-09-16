@@ -354,11 +354,14 @@ Form objects are defined by their `type` property.  The table below describes th
 }
 ```
 </td></tr>
-<tr><td> url     <td>Displays text which can be linked to an URL  </td><td>    </td><td>
+<tr><td> url     <td>Displays a text field   </td><td>    </td><td>
 
 ```json
 {
   "type": "url",
+  "label" : "Please provide your website address",
+  "placeholder" : "e.g. http://www.aftia.com",
+  "bind" : "website_value"  
 }
 ```
 </td></tr>
