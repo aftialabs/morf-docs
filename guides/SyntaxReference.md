@@ -131,7 +131,15 @@ Form objects are defined by their `type` property.  The table below describes th
 }
 ```
 </td></tr>
-<tr><td>file      <td> Displays a file picker object  </td><td>    </td></tr>
+    <tr><td>file     </td> <td> Displays a file picker object  </td><td>    </td><td>
+
+```json
+{
+  "type": "button",
+  "label": "Button Label",
+}
+```
+</td></tr>
 <tr><td>hidden      <td> Creates a hidden fields  </td><td> This object can be used to hold values/variables off screen   </td><td>
 
 ```json
@@ -186,7 +194,15 @@ Form objects are defined by their `type` property.  The table below describes th
 }
 ```
 </td></tr>
-<tr><td>radio      <td> Displays one or more radio buttons in a group </td><td>  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive. The `options` array is composed of objects with `label` and `value` properties</tr>
+<tr><td>radio      <td> Displays one or more radio buttons in a group </td><td>  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive. The `options` array is composed of objects with `label` and `value` properties</td><td>
+
+```json
+{
+  "type": "button",
+  "label": "Button Label",
+}
+```
+</td></tr>
 <tr><td>range      <td>Displays a slider for selecting a range  </td><td>    </td><td>
 
 ```json
@@ -259,7 +275,7 @@ Form objects are defined by their `type` property.  The table below describes th
 }
 ```
 </td></tr>
-<tr><td> week     <td>Displays a week picker  </td><td> Allows optional text entry   </td<td>
+    <tr><td> week   </td>  <td>Displays a week picker  </td><td> Allows optional text entry   </td><td>
 
 ```json
 {
@@ -267,7 +283,7 @@ Form objects are defined by their `type` property.  The table below describes th
   "label": "Button Label",
 }
 ```
-</td>></tr>
+</td></tr>
 </table>
 
 
