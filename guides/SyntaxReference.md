@@ -60,8 +60,8 @@ The final section in the form description is the body section.  Items in the bod
 Form objects are defined by their `type` property.  The table below describes the valid types of form objects.
 
 <table>
-<tr>
-<td> Syntax </td> <td> Description </td> <td> Notes </td> <td> Example </td>
+<tr>  
+    <td> <b>Syntax</b></td> <td><b>Description</b></td> <td><b>Notes</b></td> <td><b>Example (copy and paste)</b></td>
 </tr>
 <tr>
 <td> Button </td>
@@ -189,7 +189,8 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "month",
-  "label": "Month"
+  "label": "Month",
+  "bind": "month_value"
 }
 ```
 </td></tr>
@@ -233,8 +234,9 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
    "type": "password",
+   "label": "Enter your password",
    "bind": "password"
-},
+}
 ```
 </td></tr>
 <tr><td>paragraph      <td> Displays a static text paragraph </td><td>    </td><td>
@@ -319,6 +321,7 @@ Form objects are defined by their `type` property.  The table below describes th
 {
   "type": "tel",
   "label": "Mobile Number",
+  "placeholder": "e.g. 1-555-555-5555",  
   "bind" : "mobile_value"
 }
 ```
@@ -340,8 +343,8 @@ Form objects are defined by their `type` property.  The table below describes th
 {
    "type": "textarea",
    "label": "Describe the issue",
-   "bind": "issue_desc",
-},
+   "bind": "issue_desc"
+}
 ```
 </td></tr>
 <tr><td> time     <td>Displays a time picker </td><td>    </td><td>
@@ -349,7 +352,7 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "time",
-  "label": "Time"
+  "label": "Time",
   "bind" : "time_value"
 }
 ```
@@ -370,7 +373,7 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "week",
-  "label": "Week",
+  "label": "Pick a Week",
   "bind" : "week_value"
 }
 ```
