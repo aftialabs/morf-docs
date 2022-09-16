@@ -82,7 +82,7 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "checkbox",
-  "label": "What's your favorite color?",
+  "label": "Select your favorite color(s)",
   "bind": "fav_color",
      "options": [
      {
@@ -232,26 +232,42 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
-}
+   "type": "password",
+   "bind": "password"
+},
 ```
 </td></tr>
 <tr><td>paragraph      <td> Displays a static text paragraph </td><td>    </td><td>
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
-}
+   "type": "paragraph",
+   "label": "The quick brown fox jumps over the lazy dog",
+   "bind": "para_text"
+},
 ```
 </td></tr>
 <tr><td>radio      <td> Displays one or more radio buttons in a group </td><td>  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive. The `options` array is composed of objects with `label` and `value` properties</td><td>
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+   "type": "radio",
+   "label": "What's your favorite color?",
+   "bind": "fav_color",
+       "options": [
+       {
+         "label": "Red",
+          "value": "R"
+       },
+       {
+         "label": "Blue",
+          "value": "B"
+       },
+       {
+          "label": "Green",
+          "value": "G"
+       }
+   ]
 }
 ```
 </td></tr>
@@ -259,8 +275,12 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+   "type": "range",
+   "label": "Select Range",
+   "bind": "range_value",
+   "maxValue": 5,
+   "minValue": 1,
+   "step": 1
 }
 ```
 </td></tr>
@@ -268,8 +288,8 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "reset",
+  "label": "Clear Data"
 }
 ```
 </td></tr>
@@ -277,8 +297,10 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+   "type": "search",
+   "label": "Search",
+   "placeholder": "e.g. The quick brown fox",
+   "bind": "search_value"
 }
 ```
 </td></tr>
@@ -286,8 +308,8 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "submit",
+  "label": "Submit Form"
 }
 ```
 </td></tr>
@@ -295,8 +317,8 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "tel",
+  "label": "Mobile Number"
 }
 ```
 </td></tr>
@@ -305,6 +327,7 @@ Form objects are defined by their `type` property.  The table below describes th
 ```json
 {
   "type": "text",
+  "placeholder" : "e.g. The quick brown fox jumps over the lazy dog",
   "label": "Text Field Label",
   "bind": "text_field"
 }
@@ -324,8 +347,8 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "time",
+  "label": "Time"
 }
 ```
 </td></tr>
@@ -333,8 +356,7 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "url",
 }
 ```
 </td></tr>
@@ -342,8 +364,8 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "week",
+  "label": "Week"
 }
 ```
 </td></tr>
