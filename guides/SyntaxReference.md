@@ -169,8 +169,9 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+   "type": "file",
+   "label": "Attach a file",
+   "bind": "attachment"
 }
 ```
 </td></tr>
@@ -187,8 +188,8 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "month",
+  "label": "Month"
 }
 ```
 </td></tr>
@@ -196,8 +197,10 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "number",
+  "label": "Enter a Number between 1 and 5",
+  "minValue": 1,
+  "maxValue": 5
 }
 ```
 </td></tr>
@@ -205,8 +208,23 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+   "type": "panel",
+    "width": "full",
+    "label": "Contact Information",
+    "items": [
+      {
+        "type": "text",
+        "label": "Contact Name",
+        "placeholder": "E.g. Jane Doe",
+        "bind": "name"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "placeholder": "E.g. me@mycompany.com",
+        "bind": "email"
+      }
+    ]
 }
 ```
 </td></tr>
