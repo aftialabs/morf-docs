@@ -59,32 +59,54 @@ The final section in the form description is the body section.  Items in the bod
 
 Form objects are defined by their `type` property.  The table below describes the valid types of form objects.
 
-  | Syntax      | Description | Notes |
-| ----------- | ----------- | -------- |
-| button      | Displays a button  |    |
-| checkbox      | Displays one or more checkboxes in a group | Contains an `options` array to list checkboxes in the group. The `options` array is composed of objects with `label` and `value` properties   |
-| color      | Displays a color picker  |    |
-| date      | Displays a date field with date picker  |  Allows optional text entry  |
-| datetimelocal      | Displays a date and time field with date/time picker  | Allows optional text entry   |
-| dropdown      | Displays a dropdown field with the ability to select an option  | Contains an `options` array to dropdown values. The `options` array is composed of objects with `label` and `value` properties  |
-| email      | Displays a text field that validates email address format  |    |
-| file      | Displays a file picker object  |    |
-| hidden      | Creates a hidden fields  | This object can be used to hold values/variables off screen   |
-| month      | Displays a month picker  | Allows optional text entry    |
-| number      | Displays a field which only allow numberical values  |    |
-| panel      | Display a panel object for grouping objects together   |    |
-| password      | Displays a field which masks the characters entered  |    |
-| paragraph      | Displays a static text paragraph |    |
-| radio      | Displays one or more radio buttons in a group |  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive. The `options` array is composed of objects with `label` and `value` properties |
-| range      | Displays a slider for selecting a range  |    |
-| reset      | Displays a button for clearing form data  |    |
-| search      | Displays a text field with X for clearing value  |    |
-| submit      | Displays a button which submits the form data  |  Data is submitted to the URL in the submit element of the `config`  |
-| tel      |  Displays a text field which formats data according to telephone number pattern |    |
-| textarea      | Displays a multiline text field  |    |
-|  time     |  Displays a time picker |    |
-|  url     | Displays text which can be linked to an URL  |    |
-|  week     | Displays a week picker  | Allows optional text entry   |
+<table>
+<tr>
+<td> Syntax </td> <td> Description </td> <td> Notes </td> <td> Example </td>
+</tr>
+<tr>
+<td> Button </td>
+<td> Displays a button </td>
+<td>  </td>
+<td>
+
+```json
+{
+  "type": "button",
+  "label": "Button Label",
+}
+```
+    
+<tr><td>checkbox      <td> Displays one or more checkboxes in a group </td><td> Contains an `options` array to list checkboxes in the group. The `options` array is composed of objects with `label` and `value` properties   </td></tr>
+<tr><td>color      <td> Displays a color picker  </td><td>    </td></tr>
+<tr><td>date      <td> Displays a date field with date picker  </td><td>  Allows optional text entry  </td></tr>
+<tr><td>datetimelocal      </td><td> Displays a date and time field with date/time picker  </td><td> Allows optional text entry   </td></tr>
+<tr><td>dropdown      <td> Displays a dropdown field with the ability to select an option  </td><td> Contains an `options` array to dropdown values. The `options` array is composed of objects with `label` and `value` properties  </td></tr>
+<tr><td>email      <td> Displays a text field that validates email address format  </td><td>    </td></tr>
+<tr><td>file      <td> Displays a file picker object  </td><td>    </td></tr>
+<tr><td>hidden      <td> Creates a hidden fields  </td><td> This object can be used to hold values/variables off screen   </td></tr>
+<tr><td>month      <td> Displays a month picker  </td><td> Allows optional text entry    </td></tr>
+<tr><td>number      <td> Displays a field which only allow numberical values  </td><td>    </td></tr>
+<tr><td>panel      <td> Display a panel object for grouping objects together   </td><td>    </td></tr>
+<tr><td>password      <td> Displays a field which masks the characters entered  </td><td>    </td></tr>
+<tr><td>paragraph      <td> Displays a static text paragraph </td><td>    </td></tr>
+<tr><td>radio      <td> Displays one or more radio buttons in a group </td><td>  Contains an `options` array which lists radio buttons in the group. Choices are mutually exclusive. The `options` array is composed of objects with `label` and `value` properties</tr>
+<tr><td>range      <td>Displays a slider for selecting a range  </td><td>    </td></tr>
+<tr><td>reset      <td>Displays a button for clearing form data  </td><td>    </td></tr>
+<tr><td>search      <td>Displays a text field with X for clearing value  </td><td>    </td></tr>
+<tr><td>submit      <td>Displays a button which submits the form data  </td><td>  Data is submitted to the URL in the submit element of the `config`  </td></tr>
+<tr><td>tel      <td>Displays a text field which formats data according to telephone number pattern </td><td>    </td></tr>
+<tr><td>textarea      <td>Displays a multiline text field  </td><td>    </td></tr>
+<tr><td> time     <td>Displays a time picker </td><td>    </td></tr>
+<tr><td> url     <td>Displays text which can be linked to an URL  </td><td>    </td></tr>
+<tr><td> week     <td>Displays a week picker  </td><td> Allows optional text entry   </td></tr>
+</table>
+
+
+
+  | Syntax      | Description | Notes | Example |
+| ----------- | ----------- | -------- | -------- |
+| button      | Displays a button  |          |   | 
+
 
 ### Object Properties
 
