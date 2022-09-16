@@ -81,15 +81,31 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "checkbox",
+  "label": "What's your favorite color?",
+  "bind": "fav_color",
+     "options": [
+     {
+       "label": "Red",
+       "value": "R"
+     },
+    {
+      "label": "Blue",
+      "value": "B"
+     },
+     {
+      "label": "Green",
+      "value": "G"
+     }
+  ]
 }
 ```
 </td></tr>
 <tr><td>color      <td> Displays a color picker  </td><td>    </td><td>
 
 ```json
-{"type": "color",
+{
+   "type": "color",
    "bind": "color_value"
 },
 ```
@@ -98,8 +114,9 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "date",
+  "label": "Date",
+  "bind" : "date_value"
 }
 ```
 </td></tr>
@@ -107,8 +124,9 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+  "type": "datetimelocal",
+  "label": "Date and Time",
+  "bind" : "date_time_value"
 }
 ```
 </td></tr>
@@ -116,17 +134,34 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
-}
+   "type": "dropdown",
+   "label": "What's your favorite color?",
+   "bind": "fav_color",
+       "options": [
+       {
+         "label": "Red",
+          "value": "R"
+       },
+       {
+         "label": "Blue",
+          "value": "B"
+       },
+       {
+          "label": "Green",
+          "value": "G"
+       }
+   ]
+},
 ```
 </td></tr>
 <tr><td>email      <td> Displays a text field that validates email address format  </td><td>    </td><td>
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
+   "type": "email",
+   "label": "Contact email",
+   "placeholder": "E.g. me@mycompany.com",
+   "bind": "contact_email"
 }
 ```
 </td></tr>
@@ -261,9 +296,10 @@ Form objects are defined by their `type` property.  The table below describes th
 
 ```json
 {
-  "type": "button",
-  "label": "Button Label"
-}
+   "type": "textarea",
+   "label": "Describe the issue",
+   "bind": "issue_desc",
+},
 ```
 </td></tr>
 <tr><td> time     <td>Displays a time picker </td><td>    </td><td>
