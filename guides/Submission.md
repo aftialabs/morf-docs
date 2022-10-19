@@ -19,6 +19,9 @@ Morf will submit a request following construct:
 * HTTP Verb: `POST`
 * Headers: 
     * `Content-Type`: `multipart/form-data`
+    * `X-Proxy-Referer`: `Referer` header value provided during the form submission
+    * `X-Proxy-Origin`: `Origin` header value provided during the form submission
+    * `X-Proxy-User-Agent`: `User-Agent` header value provided during the form submission
 * Body:
     * `data`: `{...}` - parameter containing the form's JSON data
     * `files` `example1.pdf, example2.pdf, ...` - a multi-value parameter containing an array of file attachments.
