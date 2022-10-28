@@ -1,0 +1,66 @@
+{
+  "config": {
+    "submit": "",
+    "siteKey": "",
+    "successUrl": ""
+  },
+  "head": {
+    "title": "ISV Studio Test Form",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"
+  },
+  "body": {
+    "items": [
+      {
+        "type": "panel",
+        "label": "Partner Information",
+        "width": "full",
+        "items": [
+          {
+            "type": "text",
+            "label": "Partner Name",
+            "placeholder": "E.g. ACME",
+            "value": "AFTIA Solutions",
+            "disabled": true
+          },
+          {
+            "type": "date",
+            "label": "Submission Date",
+            "value": "2022-10-12",
+            "disabled": true
+          }
+        ]
+      },
+      {
+        "type": "panel",
+        "label": "Submission Verification",
+        "width": "full",
+        "items": [
+          {
+            "type": "text",
+            "label": "Reviewer Name",
+            "placeholder": "E.g. John Doe"
+          },
+          {
+            "type": "radio",
+            "label": "Verification Status",
+            "description": "Is this connector valid?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "yes"
+              },
+              {
+                "label": "No",
+                "value": "no"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "submit",
+        "label": "Submit"
+      }
+    ]
+  }
+}
