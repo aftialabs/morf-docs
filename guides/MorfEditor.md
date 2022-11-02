@@ -21,8 +21,8 @@ Getting an Embed Tag generates the code required to integrate your Morf form int
 ### Preview
 Preview pops up a preview version of the form in a separate window.   You must have a site key in order to access the preview.
 
-### Request Site Key
-The Request Site Key presents a small form requesting your first name, last name, organization and the domains from which the site key should be accessible.  Requesting a site key kicks off an approval process.  You will be contact via email when you are issued a site key. 
+### Get API Access
+The Get API Access option presents a small form requesting your first name, last name, organization and the domains from which the site key should be accessible.  Requesting a site key kicks off an approval process.  You will be contacted via email when you are issued a site and/or API key. 
 
 ### Checkout the Docs
 This links to our [documentation](https://github.com/aftialabs/morf-docs)
@@ -30,5 +30,16 @@ This links to our [documentation](https://github.com/aftialabs/morf-docs)
 ### Join Us on Slack!
 The Morf Slack channel lets you access the Morf Support, Product Management, Marketing and Engineering team as well as other users of Morf.
 
-### Settings
-Settings provides a place for you to save your site key and enable/disable the Morf product tour and show/hide the Morf UI branding.  Morf UI branding can also be controlled by a the URL parameter 'brand' with a value of true or false.  For example https://editor.getmorf.io/?brand=false will hide the branding while https://editor.getmorf.io/?brand=true will cause the branding to display (the default).
+### More
+
+#### Settings
+Settings provides a place for you to save your site and/or API key and enable/disable the Morf product tour and show/hide the Morf UI branding. See the [URL Modifiers](#url-modifiers) section for additional details on controlling some of these parameters via URL query strings.
+
+## URL Modifiers
+### brand
+Use the `brand` query string in the Morf editor URL to show/hide the Morf UI branding with a value of `true` or `false`.
+
+For example https://editor.getmorf.io/?brand=false will hide the branding while https://editor.getmorf.io/?brand=true will cause the branding to display (the default).
+
+### formRef
+Use the `formRef` query string to pass a public URL location where Morf Editor JSON exists. This will allow the Editor to prefetch a form and load it in the Editor for authoring.
