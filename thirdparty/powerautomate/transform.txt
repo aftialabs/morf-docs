@@ -1,0 +1,3 @@
+$ 
+~> | $.body.items[0].items[0] | {"value": "AFTIA"} | 
+~> | $.body.items[0].items[1] | {"value": "2022-11-15"} |
